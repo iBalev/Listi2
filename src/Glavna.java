@@ -10,8 +10,12 @@ public class Glavna {
 		iminja.add("Mila");
 		iminja.add("David");
 		iminja.add("Gordana");
+		iminja.add("Johntra");
+		iminja.add("Alpa");
+		iminja.add("Seanco");
+		
 		iminja.stream()
-			.filter(x->x.length()<=5)
+			.filter(x->x.length()<=7)
 			.forEach(x ->System.out.println(x));
 	}
 
